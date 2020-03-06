@@ -24,8 +24,8 @@ int main()
 	cv::Rect rect;
 	rect.x = 10;
 	rect.y = 10;
-	rect.width;
-	rect.height;
+	rect.width = 10;
+	rect.height = 10;
 	rectangle(dispMat3, rect, CV_RGB(255, 0, 0), 1, 8, 0);
 	imshow("Ô²", dispMat1);
 	imshow("Ïß", dispMat2);
