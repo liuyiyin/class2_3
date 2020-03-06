@@ -7,9 +7,9 @@ using namespace cv;
 
 int main()
 {   
-	cv::Mat dispMat1;
-	cv::Mat dispMat2;
-	cv::Mat dispMat3;
+	cv::Mat dispMat1 = imread("D:\\1.png");//°×Ö½
+	cv::Mat dispMat2 = imread("D:\\1.png");
+	cv::Mat dispMat3 = imread("D:\\1.png");
 	cv::Point pt;
 	pt.x = 10;
 	pt.y = 10;
@@ -27,9 +27,9 @@ int main()
 	rect.width;
 	rect.height;
 	rectangle(dispMat3, rect, CV_RGB(255, 0, 0), 1, 8, 0);
-	cv::imshow("yuan", dispMat1);
-	cv::imshow("xian", dispMat2);
-	cv::imshow("ju", dispMat3);
+	imshow("Ô²", dispMat1);
+	imshow("Ïß", dispMat2);
+	imshow("¾ØÐÎ", dispMat3);
 	waitKey(0);
 }
 
